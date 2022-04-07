@@ -422,7 +422,7 @@
         <item quantity="one">%d зміна  членства</item>
         <item quantity="few">%d зміни членства</item>
         <item quantity="many">%d змін членства</item>
-        <item quantity="other"/>
+        <item quantity="other" />
     </plurals>
     <string name="list_members">Учасники</string>
     <string name="room_settings_all_messages">Усі повідомлення</string>
@@ -443,7 +443,7 @@
         <item quantity="one">%d нове повідомлення</item>
         <item quantity="few">%d нових повідомленя</item>
         <item quantity="many">%d нових повідомлень</item>
-        <item quantity="other"/>
+        <item quantity="other" />
     </plurals>
     <string name="action_download">Завантажити</string>
     <string name="e2e_re_request_encryption_key">Вдруге запитати ключі шифрування з інших ваших сеансів.</string>
@@ -474,13 +474,13 @@
         <item quantity="one">%d непрочитане сповіщення</item>
         <item quantity="few">%d непрочитані сповіщення</item>
         <item quantity="many">%d непрочитаних сповіщень</item>
-        <item quantity="other"/>
+        <item quantity="other" />
     </plurals>
     <plurals name="notification_unread_notified_messages_in_room_rooms">
         <item quantity="one">%d кімната</item>
         <item quantity="few">%d кімнати</item>
         <item quantity="many">%d кімнат</item>
-        <item quantity="other"/>
+        <item quantity="other" />
     </plurals>
     <string name="notification_unread_notified_messages_in_room">%1$s у %2$s</string>
     <plurals name="active_widgets">

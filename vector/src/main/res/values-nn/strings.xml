@@ -419,8 +419,6 @@ Meldingssynlegheit på Matrix liknar på epost. At vi gløymer meldingane dine t
     <string name="system_alerts_header">Systemvarsel</string>
 
 
-
-
     <plurals name="room_details_selected">
         <item quantity="one">%d valt</item>
         <item quantity="other">%d valde</item>

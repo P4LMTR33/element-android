@@ -131,8 +131,6 @@
     <string name="room_participants_leave_prompt_title">ออกจากห้อง</string>
 
 
-
-
     <string name="room_jump_to_first_unread">ไปที่ข้อความแรกที่ยังไม่ได้อ่าน</string>
     <string name="list_members">แสดงรายชื่อสมาชิก</string>
     <string name="action_reject">ปฏิเสธ</string>

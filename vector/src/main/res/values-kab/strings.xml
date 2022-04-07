@@ -573,8 +573,6 @@
     </plurals>
 
 
-
-
     <string name="room_participants_action_cancel_invite">Sefsex tinubga</string>
     <string name="room_participants_power_level_demote_warning_prompt">Ur tettizmireḍ ara ad tesfesxeḍ asnifel-a acku tettṣubbuḍ deg usellun-unek·inem, ma yella d kečč·kemm i d aseqdac aneglam n texxamt-a, d awezɣi ad d-terreḍ ula d yiwet n tseglut.</string>
     <string name="room_participants_action_ignore_title">Zgel aseqdac</string>
@@ -1290,7 +1288,6 @@
         <item quantity="one">Aḥraz n tsarut %d…</item>
         <item quantity="other">Aḥraz n tsura %d…</item>
     </plurals>
-
 
 
     <string name="sas_incoming_request_notif_content">%s yebɣa ad issenqed tiɣimit-inek·inem</string>

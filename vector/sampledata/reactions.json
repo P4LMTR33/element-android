@@ -1,22 +1,22 @@
 {
-  "data": [
-    {
-      "reaction" : "👍"
-    },
-    {
-      "reaction" : "😀"
-    },
-    {
-      "reaction" : "😞"
-    },
-    {
-      "reaction" : "Not a reaction"
-    },
-    {
-      "reaction" : "✅"
-    },
-    {
-      "reaction" : "🎉"
-    }
-  ]
+    "data": [
+        {
+            "reaction": "👍"
+        },
+        {
+            "reaction": "😀"
+        },
+        {
+            "reaction": "😞"
+        },
+        {
+            "reaction": "Not a reaction"
+        },
+        {
+            "reaction": "✅"
+        },
+        {
+            "reaction": "🎉"
+        }
+    ]
 }

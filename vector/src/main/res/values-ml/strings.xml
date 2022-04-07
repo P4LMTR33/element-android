@@ -463,8 +463,6 @@
     <string name="notice_room_third_party_invite">%1$s മുറിയിൽ ചേരാൻ %2$s ന് ക്ഷണം അയച്ചു</string>
 
 
-
-
     <string name="call_hold_action">ഹോൾഡ്</string>
     <string name="call_resume_action">പുനരാരംഭിക്കുക</string>
     <string name="compression_opt_list_small">ചെറുത്</string>

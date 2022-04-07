@@ -420,8 +420,6 @@
     </plurals>
 
 
-
-
     <string name="room_participants_leave_prompt_title">Foriri de ĉambro</string>
     <string name="room_participants_leave_prompt_msg">Ĉu vi certe volas foriri de la ĉambro\?</string>
     <string name="room_participants_action_invite">Inviti</string>

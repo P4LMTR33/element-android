@@ -68,8 +68,6 @@
     <string name="action_reject">Avvis</string>
 
 
-
-
     <string name="room_participants_action_invite">Inviter</string>
     <string name="room_participants_action_ban">Utesteng</string>
     <string name="room_participants_action_unban">Opphev utestengelse</string>

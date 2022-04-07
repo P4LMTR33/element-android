@@ -375,8 +375,6 @@
     <string name="room_participants_leave_prompt_title">Rời khỏi phòng</string>
 
 
-
-
     <plurals name="room_title_members">
         <item quantity="other">%d thành viên</item>
     </plurals>

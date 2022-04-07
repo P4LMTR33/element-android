@@ -100,7 +100,6 @@
     <string name="compression_opt_list_small">Malo</string>
 
 
-
     <string name="settings_call_category">Pozivi</string>
     <string name="settings_call_ringtone_use_app_ringtone">Koristi podrazumevani ${app_name} zvuk zvona za dolazeće pozive</string>
     <string name="settings_call_ringtone_title">Zvuk zvona dolazećeg poziva</string>
@@ -166,7 +165,6 @@
     <string name="settings_deactivate_my_account">Deaktiviraj moj nalog</string>
     <string name="settings_discovery_category">Pronalaženje</string>
     <string name="settings_discovery_manage">Upravljajte vašim podešavanjima za pronalaženje.</string>
-
 
 
     <string name="devices_details_id_title">ID</string>

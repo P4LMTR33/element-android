@@ -468,8 +468,6 @@
     <string name="system_alerts_header">Systeemmeldingen</string>
 
 
-
-
     <plurals name="room_details_selected">
         <item quantity="one">%d geselecteerd</item>
         <item quantity="other">%d geselecteerd</item>

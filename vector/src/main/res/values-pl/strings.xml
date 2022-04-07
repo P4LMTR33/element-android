@@ -281,7 +281,7 @@
         <item quantity="one">%d zmiana członkostwa</item>
         <item quantity="few">%d zmiany członkostwa</item>
         <item quantity="many">%d zmian członkostwa</item>
-        <item quantity="other"/>
+        <item quantity="other" />
     </plurals>
     <string name="call_error_user_not_responding">Rozmówca nie połączył się.</string>
     <string name="permissions_rationale_msg_camera_and_audio">${app_name} wymaga dostępu do kamery i mikrofonu, aby przeprowadzać rozmowy wideo.
@@ -292,7 +292,7 @@
         <item quantity="one">1 członek</item>
         <item quantity="few">kilku członków</item>
         <item quantity="many">%d członków</item>
-        <item quantity="other"/>
+        <item quantity="other" />
     </plurals>
     <string name="room_participants_power_level_prompt">Nie będziesz w stanie cofnąć tej zmiany, ponieważ przyznajesz użytkownikowi uprawnienia równe swoim.
 \n
@@ -302,7 +302,7 @@
         <item quantity="one">Nowa wiadomość</item>
         <item quantity="few">Kilka nowych wiadomości</item>
         <item quantity="many">%d nowych wiadomości</item>
-        <item quantity="other"/>
+        <item quantity="other" />
     </plurals>
     <string name="ssl_cert_not_trust">Może to oznaczać że ktoś zakłóca twoje połączenie, lub Twój telefon nie ufa certyfikatowi dostarczonemu przez zdalny serwer.</string>
     <string name="ssl_cert_new_account_expl">Jeśli administrator serwera oświadczył, że jest to oczekiwane, upewnij się, że poniższy odcisk palca odpowiada odciskowi palca dostarczonemu przez niego.</string>
@@ -367,7 +367,7 @@
         <item quantity="one">1 aktywny widżet</item>
         <item quantity="few">%d aktywne widżety</item>
         <item quantity="many">%d aktywnych widżetów</item>
-        <item quantity="other"/>
+        <item quantity="other" />
     </plurals>
     <string name="widget_integration_room_not_visible">Pokój %s nie jest widoczny.</string>
     <string name="settings_labs_native_camera">Użyj natywnej kamery</string>
@@ -379,7 +379,7 @@
         <item quantity="one">1 nieprzeczytana wiadomość powiadomienia</item>
         <item quantity="few">%d nieprzeczytane wiadomości powiadomienia</item>
         <item quantity="many">%d nieprzeczytanych wiadomości powiadomienia</item>
-        <item quantity="other"/>
+        <item quantity="other" />
     </plurals>
     <string name="notification_unread_notified_messages_in_room">%1$s w %2$s</string>
     <string name="widget_delete_message_confirmation">Czy na pewno chcesz usunąć widżet z tego pokoju?</string>
@@ -425,7 +425,7 @@
         <item quantity="one">1 zaznaczone</item>
         <item quantity="few">%d zaznaczone</item>
         <item quantity="many">%d zaznaczonych</item>
-        <item quantity="other"/>
+        <item quantity="other" />
     </plurals>
     <string name="settings_preview_media_before_sending">Podgląd mediów przed wysłaniem</string>
     <string name="encryption_export_notice">Utwórz hasło, aby zaszyfrować wyeksportowane klucze. Będziesz musiał wpisać to samo hasło, aby móc zaimportować klucze.</string>
@@ -539,7 +539,7 @@
     <plurals name="keys_backup_restore_success_description_part1">
         <item quantity="one">Przywrócono kopię zapasową z %d kluczem.</item>
         <item quantity="few">Przywrócono kopię zapasową z %d kluczami.</item>
-        <item quantity="many"/>
+        <item quantity="many" />
     </plurals>
     <string name="title_activity_keys_backup_restore">Użyj kopii zapasowej klucza</string>
     <string name="settings_troubleshoot_diagnostic_running_status">Uruchamianie… (%1$d z %2$d)</string>
@@ -747,13 +747,13 @@
     <plurals name="notification_compat_summary_line_for_room">
         <item quantity="one">%1$s: %2$d wiadomość</item>
         <item quantity="few">%1$s: %2$d wiadomości</item>
-        <item quantity="many"/>
-        <item quantity="other"/>
+        <item quantity="many" />
+        <item quantity="other" />
     </plurals>
     <plurals name="notification_compat_summary_title">
         <item quantity="one">%d powiadomienie</item>
         <item quantity="few">%d powiadomień</item>
-        <item quantity="many"/>
+        <item quantity="many" />
     </plurals>
     <string name="notification_unknown_new_event">Nowe wydarzenie</string>
     <string name="notification_new_messages">Nowe wiadomości</string>
@@ -827,7 +827,7 @@
     <plurals name="keys_backup_info_keys_backing_up">
         <item quantity="one">Kopiowanie %d klucza…</item>
         <item quantity="few">Kopiowanie %d kluczy…</item>
-        <item quantity="many"/>
+        <item quantity="many" />
     </plurals>
     <string name="settings_troubleshoot_test_bing_settings_failed">Niektóre powiadomienia są wyłączone w osobistej konfiguracji.</string>
     <string name="settings_troubleshoot_test_play_services_success">Usługi Google Play są aktualne.</string>
@@ -888,8 +888,8 @@
     <plurals name="fallback_users_read">
         <item quantity="one">%d użytkownik odczytał</item>
         <item quantity="few">%d użytkowników odczytało</item>
-        <item quantity="many"/>
-        <item quantity="other"/>
+        <item quantity="many" />
+        <item quantity="other" />
     </plurals>
     <string name="error_attachment">Wystąpił błąd poczas otrzymywania załącznika.</string>
     <string name="error_handling_incoming_share">Nie można obsłużyć otrzymanych danych</string>
@@ -1001,7 +1001,7 @@
     <plurals name="login_error_limit_exceeded_retry_after">
         <item quantity="one">Zostało wysłane zbyt wiele żądań. Możesz spróbować ponownie za %1$d sekundę…</item>
         <item quantity="few">Zostało wysłane zbyt wiele żądań. Możesz spróbować ponownie za %1$d sekundy…</item>
-        <item quantity="many"/>
+        <item quantity="many" />
     </plurals>
     <string name="signed_out_title">Wylogowałeś(-łaś) się</string>
     <string name="signed_out_notice">Mogło to się stać z wielu powodów:
@@ -1082,7 +1082,7 @@
     <plurals name="room_profile_section_more_member_list">
         <item quantity="one">Jedna osoba</item>
         <item quantity="few">%1$d osób</item>
-        <item quantity="many"/>
+        <item quantity="many" />
     </plurals>
     <string name="room_profile_leaving_room">Opuszczanie pokoju…</string>
     <string name="room_member_power_level_admins">Administratorzy</string>
@@ -1132,7 +1132,7 @@
     <plurals name="settings_active_sessions_count">
         <item quantity="one">%d aktywna sesja</item>
         <item quantity="few">%d aktywnych sesji</item>
-        <item quantity="many"/>
+        <item quantity="many" />
     </plurals>
     <string name="crosssigning_verify_this_session">Zweryfikuj tą sesję</string>
     <string name="verification_open_other_to_verify">Otwórz obecną sesję i użyj jej do zweryfikowania obecnej, przyznając jej dostęp do zaszyfrowanych wiadomości.</string>
@@ -1161,7 +1161,7 @@
     <plurals name="send_images_with_original_size">
         <item quantity="one">Wyślij obraz w oryginalnym rozmiarze</item>
         <item quantity="few">Wyślij obrazy w oryginalnym rozmiarze</item>
-        <item quantity="many"/>
+        <item quantity="many" />
     </plurals>
     <string name="delete_event_dialog_title">Potwierdź Usunięcie</string>
     <string name="delete_event_dialog_content">Jesteś pewny(-na), że chcesz usunąć to wydarzenie\? Jeżeli usuniesz nazwę pokoju lub zmienisz temat, wciąż będzie możliwe cofnięcie zmiany.</string>
@@ -1583,8 +1583,8 @@
     <plurals name="two_and_some_others_read">
         <item quantity="one">%1$s, %2$s i %3$d czyta</item>
         <item quantity="few">%1$s, %2$s i %3$d czytają</item>
-        <item quantity="many"/>
-        <item quantity="other"/>
+        <item quantity="many" />
+        <item quantity="other" />
     </plurals>
     <string name="room_alias_publish_to_directory_error">Nie udało się uzyskać widoczności katalogu bieżącego pokoju (%1$s).</string>
     <string name="settings_secure_backup_enter_to_setup">Skonfiguruj na tym urządzeniu</string>
@@ -2030,8 +2030,8 @@
     <plurals name="room_displayname_four_and_more_members">
         <item quantity="one">%1$s, %2$s, %3$s i %4$d innych</item>
         <item quantity="few">%1$s, %2$s, %3$s i %4$d innych</item>
-        <item quantity="many"/>
-        <item quantity="other"/>
+        <item quantity="many" />
+        <item quantity="other" />
     </plurals>
     <string name="room_displayname_4_members">%1$s, %2$s, %3$s i %4$s</string>
     <string name="power_level_custom_no_value">Niestandardowe</string>

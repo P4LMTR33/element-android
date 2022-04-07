@@ -29,7 +29,6 @@ import org.matrix.android.sdk.internal.session.room.timeline.TimelineSendEventWo
 import org.matrix.android.sdk.internal.worker.SessionSafeCoroutineWorker
 import org.matrix.android.sdk.internal.worker.SessionWorkerParams
 import org.matrix.android.sdk.internal.worker.WorkerParamsFactory
-import org.matrix.android.sdk.internal.worker.startChain
 import timber.log.Timber
 import javax.inject.Inject
 
@@ -44,10 +43,10 @@ internal class MultipleEventSendingDispatcherWorker(context: Context, params: Wo
 
     @JsonClass(generateAdapter = true)
     internal data class Params(
-            override val sessionId: String,
-            val localEchoIds: List<LocalEchoIdentifiers>,
-            val isEncrypted: Boolean,
-            override val lastFailureMessage: String? = null
+        override val sessionId: String,
+        val localEchoIds: List<LocalEchoIdentifiers>,
+        val isEncrypted: Boolean,
+        override val lastFailureMessage: String? = null
     ) : SessionWorkerParams
 
     @Inject lateinit var workManagerProvider: WorkManagerProvider
@@ -57,10 +56,10 @@ internal class MultipleEventSendingDispatcherWorker(context: Context, params: Wo
     override fun doOnError(params: Params): Result {
         params.localEchoIds.forEach { localEchoIds ->
             localEchoRepository.updateSendState(
-                    eventId = localEchoIds.eventId,
-                    roomId = localEchoIds.roomId,
-                    sendState = SendState.UNDELIVERED,
-                    sendStateDetails = params.lastFailureMessage
+                eventId = localEchoIds.eventId,
+                roomId = localEchoIds.roomId,
+                sendState = SendState.UNDELIVERED,
+                sendStateDetails = params.lastFailureMessage
             )
         }
 
@@ -77,10 +76,10 @@ internal class MultipleEventSendingDispatcherWorker(context: Context, params: Wo
         params.localEchoIds.forEach { localEchoIds ->
             val roomId = localEchoIds.roomId
             val eventId = localEchoIds.eventId
-                localEchoRepository.updateSendState(eventId, roomId, SendState.SENDING)
-                Timber.v("## SendEvent: [${System.currentTimeMillis()}] Schedule send event $eventId")
-                val sendWork = createSendEventWork(params.sessionId, eventId, true)
-                timelineSendEventWorkCommon.postWork(roomId, sendWork)
+            localEchoRepository.updateSendState(eventId, roomId, SendState.SENDING)
+            Timber.v("## SendEvent: [${System.currentTimeMillis()}] Schedule send event $eventId")
+            val sendWork = createSendEventWork(params.sessionId, eventId, true)
+            timelineSendEventWorkCommon.postWork(roomId, sendWork)
         }
 
         return Result.success()

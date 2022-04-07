@@ -52,9 +52,6 @@
     <string name="room_displayname_empty_room">Gela hutsa</string>
 
 
-
-
-
     <string name="initial_sync_start_importing_account">Hasierako sinkronizazioa:
 \nKontua inportatzen…</string>
     <string name="initial_sync_start_importing_account_crypto">Hasierako sinkronizazioa:
@@ -210,8 +207,6 @@
     <string name="compression_opt_list_small">Txikia</string>
 
 
-
-
     <string name="call_connecting">Deia konektatzen…</string>
     <string name="call_ended">Deia amaitu da</string>
     <string name="incoming_video_call">Bideo-deia jasotzen</string>
@@ -238,11 +233,6 @@ Baimendu sarbidea hurrengo laster-leihoan deia egin ahal izateko.</string>
     <string name="action_reject">Baztertu</string>
 
     <string name="room_jump_to_first_unread">Jauzi irakurri gabeko lehen mezura.</string>
-
-
-
-
-
 
 
     <string name="room_participants_leave_prompt_title">Atera gelatik</string>
@@ -284,13 +274,9 @@ Ziur zaude?</string>
     <string name="ssl_only_accept">Ziurtagiria onartu soilik baldin eta zerbitzariaren kudeatzaileak goikoarekin bat datorren hatz-marka bat argitaratu badu.</string>
 
 
-
-
     <string name="search_hint">Bilatu</string>
     <string name="search_members_hint">Iragazi gelako kideak</string>
     <string name="search_no_results">Emaitzarik ez</string>
-
-
 
 
     <string name="settings_profile_picture">Profil-argazkia</string>
@@ -366,7 +352,6 @@ Ziur zaude?</string>
 Kontuan izan ekintza honek aplikazioa berrabiaraziko duela eta denbora bat beharko lukeela.</string>
 
 
-
     <string name="settings_select_country">Hautatu herrialde bat</string>
 
 
@@ -398,12 +383,8 @@ Kontuan izan ekintza honek aplikazioa berrabiaraziko duela eta denbora bat behar
     <string name="room_settings_labs_warning_message">Hauek ezaugarri esperimentalak dira, huts egin dezakete. Erabili kontuz.</string>
 
 
-
     <string name="room_settings_set_main_address">Ezarri helbide nagusi gisa</string>
     <string name="room_settings_unset_main_address">Kendu helbide nagusi ezarpena</string>
-
-
-
 
 
     <string name="encryption_information_decryption_error">Deszifratze errorea</string>
@@ -435,13 +416,10 @@ Kontuan izan ekintza honek aplikazioa berrabiaraziko duela eta denbora bat behar
     <string name="encryption_information_verify_device_warning2">Bat badator, sakatu beheko egiaztatu botoia. Ez badator bat, beste inor saioa atzematen dago eta zerrenda beltzean sartu beharko zenuke. Etorkizunean egiaztaketa metodoa hobetuko da.</string>
 
 
-
     <string name="select_room_directory">Hautatu gela direktorio bat</string>
     <string name="directory_server_placeholder">Hasiera zerbitzariaren URLa</string>
     <string name="directory_server_all_rooms_on_server">%s zerbitzariko gela guztiak</string>
     <string name="directory_server_native_rooms">%s gela natibo guztiak</string>
-
-
 
 
     <string name="settings_theme">Azala</string>
@@ -506,7 +484,6 @@ Kontuan izan ekintza honek aplikazioa berrabiaraziko duela eta denbora bat behar
     <string name="loading">Kargatzen…</string>
 
 
-
     <string name="groups_header">Komunitateak</string>
 
     <string name="start_voice_call_prompt_msg">Ziur ahots-dei bat hasi nahi duzula?</string>
@@ -520,7 +497,6 @@ Kontuan izan ekintza honek aplikazioa berrabiaraziko duela eta denbora bat behar
 
     <string name="settings_inline_url_preview">URL-en aurrebista</string>
     <string name="settings_vibrate_on_mention">Bibratu erabiltzaile bat aipatzean</string>
-
 
 
     <string name="create">Sortu</string>
@@ -555,7 +531,6 @@ Kontuan izan ekintza honek aplikazioa berrabiaraziko duela eta denbora bat behar
     </plurals>
 
 
-
     <plurals name="notification_unread_notified_messages">
         <item quantity="one">Irakurri gabeko jakinaraziko mezu bat</item>
         <item quantity="other">%d irakurri gabeko jakinaraziko mezu</item>
@@ -573,7 +548,6 @@ Kontuan izan ekintza honek aplikazioa berrabiaraziko duela eta denbora bat behar
     </plurals>
 
     <string name="avatar">Abatarra</string>
-
 
 
     <string name="title_activity_choose_sticker">Bidali eranskailu bat</string>
@@ -643,18 +617,10 @@ Matrix-eko mezuen ikusgaitasuna e-mail sistemaren antekoa da. Guk zure mezuak ah
     <string name="system_alerts_header">Sistemaren alertak</string>
 
 
-
-
-
-
-
-
     <plurals name="room_details_selected">
         <item quantity="one">1 hautatuta</item>
         <item quantity="other">%d hautatuta</item>
     </plurals>
-
-
 
 
     <string name="resource_limit_contact_admin">kontaktatu zure zerbitzu administratzailea</string>
@@ -771,8 +737,6 @@ Aplikazioa egiten saiatzen ari dena agresiboki murriztuko zaio bigarren planoan 
     <string name="settings_troubleshoot_test_battery_title">Bateria optimizazioa</string>
     <string name="settings_troubleshoot_test_battery_success">Bateria optimizazioak ez du eraginik ${app_name}-engan.</string>
     <string name="settings_troubleshoot_test_battery_quickfix">Ezikusi optimizazioa</string>
-
-
 
 
     <string name="no_valid_google_play_services_apk">Ez da baliozko Google Play Services APK-rik aurkitu. Jakinarazpenak agian ez dira ongi ibiliko.</string>
@@ -959,7 +923,6 @@ Errore hau ${app_name}-en kontroletik kanpo dago. Ez dago Google konturik gailua
     <string name="keys_backup_info_title_signature">Sinadura</string>
 
 
-
     <string name="action_mark_room_read">Markatu irakurritako gisa</string>
     <plurals name="notification_compat_summary_line_for_room">
         <item quantity="one">%1$s: mezu 1</item>
@@ -995,13 +958,8 @@ Errore hau ${app_name}-en kontroletik kanpo dago. Ez dago Google konturik gailua
     <string name="ignore_request_short_label">Ezikusi</string>
 
 
-
-
     <string name="sas_verified">Egiaztatuta!</string>
     <string name="sas_got_it">Ulertuta</string>
-
-
-
 
 
     <string name="sas_incoming_request_notif_title">Egiaztaketa eskaria</string>
@@ -1137,8 +1095,6 @@ Errore hau ${app_name}-en kontroletik kanpo dago. Ez dago Google konturik gailua
     <string name="action_decline">Ukatu</string>
 
 
-
-
     <string name="login_error_homeserver_not_found">Ezin izan da hasiera-zerbitzari bat atzitu URL honetan, egiaztatu ezazu</string>
     <string name="settings_background_fdroid_sync_mode">Bigarren planoko sinkronizazio modua (Esperimentala)</string>
     <string name="settings_background_fdroid_sync_mode_battery">Bateria erabilerarako optimizatua</string>
@@ -1149,7 +1105,6 @@ Errore hau ${app_name}-en kontroletik kanpo dago. Ez dago Google konturik gailua
 \nHonek irrati eta bateriaren erabileran eragina izango du, eta ${app_name} gertaerei adi dagoela dion jakinarazpen bat bistaratuko da etengabe.</string>
     <string name="settings_background_fdroid_sync_mode_disabled">Ez sinkronizatu bigarren planoan</string>
     <string name="settings_background_fdroid_sync_mode_disabled_description">Ez zaizu jasotako mezuei buruz jakinaraziko aplikazioa bigarren planoan dagoenean.</string>
-
 
 
     <string name="settings_discovery_category">Aurkitzea</string>
@@ -1163,7 +1118,6 @@ Errore hau ${app_name}-en kontroletik kanpo dago. Ez dago Google konturik gailua
     <string name="terms_of_service">Erabilera baldintzak</string>
     <string name="terms_description_for_identity_server">Izan besteentzat aurkigarria</string>
     <string name="terms_description_for_integration_manager">Erabili botak, zubiak, trepetak eta eranskailu multzoak</string>
-
 
 
     <string name="identity_server">Identitate-zerbitzaria</string>
@@ -1244,10 +1198,6 @@ Errore hau ${app_name}-en kontroletik kanpo dago. Ez dago Google konturik gailua
     <string name="content_reported_as_inappropriate_content">Eduki hau desegoki gisa salatu da.
 \n
 \nEz baduzu erabiltzaile honen eduki gehiago ikusi nahi, bere mezuak ezkutatzeko blokeatu dezakezu</string>
-
-
-
-
 
 
     <string name="settings_integrations">Integrazioak</string>
@@ -1514,7 +1464,6 @@ Errore hau ${app_name}-en kontroletik kanpo dago. Ez dago Google konturik gailua
     <string name="verification_no_scan_emoji_title">Egiaztatu emojiak konparatuz</string>
 
 
-
     <string name="verification_verify_user">Egiaztatu %s</string>
     <string name="verification_verified_user">%s egiaztatuta</string>
     <string name="verification_request_waiting_for">%s itxaroten…</string>
@@ -1693,7 +1642,6 @@ Errore hau ${app_name}-en kontroletik kanpo dago. Ez dago Google konturik gailua
     <string name="message_key">Mezu-gakoa</string>
 
 
-
     <string name="enter_account_password">Sartu zure %s jarraitzeko.</string>
 
     <string name="bootstrap_dont_reuse_pwd">Ez berrerabili zure kontuaren pasahitza.</string>
@@ -1722,9 +1670,6 @@ Errore hau ${app_name}-en kontroletik kanpo dago. Ez dago Google konturik gailua
     <string name="bootstrap_crosssigning_print_it">Inprimatu eta gorde toki seguruan</string>
     <string name="bootstrap_crosssigning_save_usb">Gorde USB memorian edo babes-kopien diskoan</string>
     <string name="bootstrap_crosssigning_save_cloud">Kopiatu zure hodei pertsonalean</string>
-
-
-
 
 
     <string name="encryption_enabled">Zifratzea gaituta</string>

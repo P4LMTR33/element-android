@@ -222,8 +222,6 @@
     </plurals>
 
 
-
-
     <string name="room_participants_leave_prompt_title">방 떠나기</string>
     <string name="room_participants_leave_prompt_msg">방을 떠나겠습니까\?</string>
     <string name="room_participants_header_direct_chats">다이렉트 대화</string>

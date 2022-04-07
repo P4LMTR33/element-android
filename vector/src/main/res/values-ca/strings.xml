@@ -573,8 +573,6 @@
 \nEn vols afegir algun\?</string>
 
 
-
-
     <plurals name="room_details_selected">
         <item quantity="one">%d seleccionat</item>
         <item quantity="other">%d seleccionats</item>

@@ -9,9 +9,9 @@
 
     <item android:drawable="?selectableItemBackground" />
     <item
-        android:bottom="8dp"
-        android:drawable="@drawable/ic_locate"
-        android:left="8dp"
-        android:right="8dp"
-        android:top="8dp" />
+            android:bottom="8dp"
+            android:drawable="@drawable/ic_locate"
+            android:left="8dp"
+            android:right="8dp"
+            android:top="8dp" />
 </layer-list>

@@ -172,8 +172,6 @@
     </plurals>
 
 
-
-
     <string name="room_participants_leave_prompt_title">Napusti sobu</string>
     <string name="room_participants_leave_prompt_msg">Jeste li sigurni da želite napustiti sobu\?</string>
     <string name="room_participants_header_direct_chats">IZRAVNA ĆASKANJA</string>

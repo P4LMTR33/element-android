@@ -562,8 +562,6 @@
     <string name="room_tombstone_predecessor_link">Натиснете тук за да видите по-стари съобщения</string>
 
 
-
-
     <plurals name="room_details_selected">
         <item quantity="one">%d избран</item>
         <item quantity="other">%d избрани</item>

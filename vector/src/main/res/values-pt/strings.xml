@@ -344,8 +344,6 @@ Adicionar alguns agora?</string>
     </plurals>
 
 
-
-
     <string name="room_participants_ban_prompt_msg">Tem a certeza que pretende banir este utilizador desta conversa?</string>
     <plurals name="room_new_messages_notification">
         <item quantity="one">%d nova mensagem</item>

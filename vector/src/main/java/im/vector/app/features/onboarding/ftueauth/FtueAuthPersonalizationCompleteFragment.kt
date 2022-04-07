@@ -20,7 +20,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.view.isVisible
 import im.vector.app.core.animations.play
 import im.vector.app.databinding.FragmentFtuePersonalizationCompleteBinding
 import im.vector.app.features.onboarding.OnboardingAction

@@ -46,7 +46,6 @@
     <string name="medium_phone_number">ఫోను నంబరు</string>
 
 
-
     <string name="notice_room_invite_you">%1$s మిమ్మల్ని ఆహ్వానించారు</string>
     <string name="notice_room_join">%1$s చేరారు</string>
 
@@ -137,14 +136,11 @@
     <string name="compression_opt_list_small">చిన్నది</string>
 
 
-
-
     <string name="call_connecting">కాల్ అనుసంధానించబడుతున్నది…</string>
     <string name="call_ended">కాల్ ముగిసింది</string>
     <string name="incoming_video_call">మీకు వస్తున్న వీడియో కాల్</string>
     <string name="incoming_voice_call">మీకు వస్తున్న కాల్</string>
     <string name="call_in_progress">కాల్ పురోగతిలో వుంది</string>
-
 
 
     <string name="permissions_rationale_popup_title">సమాచారం</string>
@@ -163,7 +159,6 @@
 
     <string name="room_participants_leave_prompt_title">గదిని వదలండి</string>
     <string name="room_participants_leave_prompt_msg">మీరు ఖచ్చితంగా గదిని వదిలేయాలనుకుంటున్నారా?</string>
-
 
 
     <string name="room_participants_action_invite">ఆహ్వానము</string>
@@ -187,12 +182,9 @@
     <string name="ssl_could_not_verify">రిమోట్ సర్వర్ యొక్క గుర్తింపును ధృవీకరించలేకపోయింది.</string>
 
 
-
     <string name="search_hint">వెతుకు</string>
     <string name="search_members_hint">గది సభ్యుల వడపోత</string>
     <string name="search_no_results">ఫలితాలు లేవు</string>
-
-
 
 
     <string name="settings_profile_picture">ప్రొఫైల్ చిత్రం</string>
@@ -244,9 +236,7 @@
     <string name="settings_unignore_user">%s నుండి అన్ని సందేశాలను చూపించాలా?</string>
 
 
-
     <string name="settings_select_country">దేశాన్ని ఎంచుకోండి</string>
-
 
 
     <string name="room_settings_topic">విషయము</string>
@@ -297,18 +287,12 @@
     <string name="send_bug_report_failed">లోపపు నివేదిక పంపబడదు (%s)</string>
 
 
-
-
-
-
     <string name="permissions_rationale_msg_camera_and_audio">"మీ కెమెరాను మరియు మీ శబ్ద ప్రసారిణి సాంగత్యం చేయడానికి రియోట్కు అనుమతి అవసరం.
 \n
 \nదయచేసి   పిలుపు చేయడానికి వీలుగా తదుపరి పాప్-అప్ల్లో ప్రాప్యతను అనుమతించండి."</string>
 
     <string name="encryption_information_verify_device_warning2">ఇది సరిపోలితే, దిగువ ధృవీకరించు బటన్ను నొక్కండి. అది కాకపోతే, అప్పుడు ఎవరో ఈ పరికరాన్ని అడ్డుకుంటున్నారు మరియు మీరు బహుశా బ్లాక్ బటన్ను నొక్కాలనుకుంటున్నారు.
 \nభవిష్యత్తులో ఈ ధృవీకరణ ప్రక్రియ మరింత అధునాతనంగా ఉంటుంది.</string>
-
-
 
 
 </resources>

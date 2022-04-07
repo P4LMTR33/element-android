@@ -3,8 +3,8 @@
     <!-- Tint color is provided by the theme -->
     <solid android:color="@android:color/black" />
     <corners
-        android:bottomLeftRadius="12dp"
-        android:bottomRightRadius="12dp"
-        android:topLeftRadius="12dp"
-        android:topRightRadius="12dp" />
+            android:bottomLeftRadius="12dp"
+            android:bottomRightRadius="12dp"
+            android:topLeftRadius="12dp"
+            android:topRightRadius="12dp" />
 </shape>

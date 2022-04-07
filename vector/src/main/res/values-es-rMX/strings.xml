@@ -43,9 +43,6 @@
     <string name="matrix_error">Error de Matrix</string>
 
 
-
-
-
     <string name="medium_email">Correo electrónico</string>
     <string name="medium_phone_number">Número telefónico</string>
 
@@ -53,8 +50,6 @@
     <string name="room_displayname_room_invite">Invitación de Sala</string>
     <string name="room_displayname_two_members">%1$s y %2$s</string>
     <string name="room_displayname_empty_room">Sala vacía</string>
-
-
 
 
     <string name="title_activity_settings">Configuraciones</string>
@@ -289,8 +284,6 @@
         <item quantity="one">1 miembro</item>
         <item quantity="other">%d miembros</item>
     </plurals>
-
-
 
 
     <plurals name="room_details_selected">

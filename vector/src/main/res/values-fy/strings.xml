@@ -959,8 +959,6 @@
     <string name="room_participants_leave_private_warning">Dit petear is net iepenbier. Jo kinne net opnij ta trede sûnder útnûging.</string>
 
 
-
-
     <plurals name="room_title_members">
         <item quantity="one">%d dielnimmer</item>
         <item quantity="other">%d dielnimmers</item>

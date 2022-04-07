@@ -173,8 +173,6 @@
     </plurals>
 
 
-
-
     <string name="room_participants_leave_prompt_title">Odadan ayrıl</string>
     <string name="room_participants_leave_prompt_msg">Odadan ayrılmak istediğine emin misin\?</string>
     <string name="room_participants_header_direct_chats">DİREKT SOHBETLER</string>

@@ -17,7 +17,6 @@
 package org.matrix.android.sdk.internal.session.sync.parsing
 
 import io.realm.Realm
-import org.matrix.android.sdk.api.session.events.model.toModel
 import org.matrix.android.sdk.api.session.room.accountdata.RoomAccountDataTypes
 import org.matrix.android.sdk.api.session.room.model.tag.RoomTagContent
 import org.matrix.android.sdk.api.session.sync.model.RoomSyncAccountData
@@ -32,8 +31,10 @@ import org.matrix.android.sdk.internal.session.sync.handler.room.RoomFullyReadHa
 import org.matrix.android.sdk.internal.session.sync.handler.room.RoomTagHandler
 import javax.inject.Inject
 
-internal class RoomSyncAccountDataHandler @Inject constructor(private val roomTagHandler: RoomTagHandler,
-                                                              private val roomFullyReadHandler: RoomFullyReadHandler) {
+internal class RoomSyncAccountDataHandler @Inject constructor(
+    private val roomTagHandler: RoomTagHandler,
+    private val roomFullyReadHandler: RoomFullyReadHandler
+) {
 
     fun handle(realm: Realm, roomId: String, accountData: RoomSyncAccountData) {
         if (accountData.events.isNullOrEmpty()) {
@@ -59,8 +60,8 @@ internal class RoomSyncAccountDataHandler @Inject constructor(private val roomTa
             existing.contentStr = ContentMapper.map(content)
         } else {
             val roomAccountData = RoomAccountDataEntity(
-                    type = eventType,
-                    contentStr = ContentMapper.map(content)
+                type = eventType,
+                contentStr = ContentMapper.map(content)
             )
             roomEntity.accountData.add(roomAccountData)
         }
