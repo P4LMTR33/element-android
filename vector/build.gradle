@@ -285,12 +285,6 @@ android {
         }
     }
 
-    lintOptions {
-        lintConfig file("lint.xml")
-
-        checkDependencies true
-        abortOnError true
-    }
 
     compileOptions {
         sourceCompatibility versions.sourceCompat
@@ -322,6 +316,11 @@ android {
 
     buildFeatures {
         viewBinding true
+    }
+    lint {
+        abortOnError true
+        checkDependencies true
+        lintConfig file('lint.xml')
     }
 }
 
