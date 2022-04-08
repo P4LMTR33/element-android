@@ -52,7 +52,7 @@ dependencies {
     implementation 'com.github.chrisbanes:PhotoView:2.3.0'
 
     implementation libs.androidx.core
-    implementation libs.androidx.appCompat
+    implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation libs.androidx.recyclerview
 
     implementation libs.google.material
